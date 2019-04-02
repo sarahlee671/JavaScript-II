@@ -4,12 +4,16 @@
 function farm() {
   const horse = "stallion";
   console.log(`I am a ${horse} and I live on a farm.`);
-}
+
   function house() {
     const dog = "Labrador";
     console.log(`I am not a ${horse}, I am a ${dog} and I live in a house.`);
+  }
 
+  house();
 }
+farm();
+
 
 
 
